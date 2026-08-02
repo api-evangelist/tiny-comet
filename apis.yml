@@ -1,22 +1,61 @@
 aid: tiny-comet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiny-comet.png
 name: Tiny Comet
-description: Tiny Comet is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tiny Comet is an educational games studio building history-based simulation
+  RPGs for school-aged children, founded by Emily Tierney and Anca Agapi. Its first title,
+  Nation Survival, is an immersive educational role-playing game on the Roblox platform.
+  The studio came out of the a16z SPEEDRUN accelerator and has raised additional venture
+  capital from Andreessen Horowitz and Roble Ventures. Tiny Comet is a consumer gaming and
+  edtech company with no public developer or API surface at this time; this profile captures
+  its identity in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/tiny-comet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+x-also-backed-by:
+- a16z SPEEDRUN
+- Roble Ventures
+x-founders:
+- Emily Tierney
+- Anca Agapi
+x-industry: gaming-edtech
+x-flagship-product: Nation Survival (Roblox educational RPG)
+x-web-presence:
+- https://www.linkedin.com/company/tiny-comet
+- https://www.youtube.com/@tinycomet_
+x-api-surface: none
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Education
+- EdTech
+- Roblox
+- Simulation Games
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
